@@ -1383,6 +1383,7 @@ var ScaffoldBuilder = (function (m, $) {
 	};
 
 	m.getComponents = function() {
+		console.log("get components");
 		// to provide all the components via a provided objects
 			
 		var html = '<div class="template-link-wrapper"><a href="#" class="template-link">Insert  test</a><div class="element-wrapper" style="display: none;"></div></div>';
