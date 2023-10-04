@@ -1,3 +1,4 @@
+console.log("test log");
 var ScaffoldBuilder = (function (m, $) {
 	m.editor;
 
