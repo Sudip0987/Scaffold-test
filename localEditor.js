@@ -1385,7 +1385,7 @@ var ScaffoldBuilder = (function (m, $) {
 	m.getComponents = function() {
 		// to provide all the components via a provided objects
 			
-		var html = '<div class="template-link-wrapper"><a href="#" class="template-link">Insert element test</a><div class="element-wrapper" style="display: none;"></div></div>';
+		var html = '<div class="template-link-wrapper"><a href="#" class="template-link">Insert  test</a><div class="element-wrapper" style="display: none;"></div></div>';
 		if (ScaffoldBuilder.options.editorposition === 1) {
 			if ($('#discussion-details-tab').length && (ScaffoldBuilder.disableassignment === undefined || !ScaffoldBuilder.disableassignment)) {
 				$("#discussion-details-tab > .control-group").first().after(
@@ -1425,7 +1425,7 @@ var ScaffoldBuilder = (function (m, $) {
 			'<rect width="98" height="98" fill="white"/>' +
 			'</clipPath>' +
 			'</defs>' +
-			'</svg><span class="insert-text"> test element</span></a><a href="#" class="disable-template-link" tabindex="0" title="Disable Scaffold"><i class="icon-eye"></i></a></div></div></div>';
+			'</svg><span class="insert-text">Elements</span></a><a href="#" class="disable-template-link" tabindex="0" title="Disable Scaffold"><i class="icon-eye"></i></a></div></div></div>';
 			$('#right-side-wrapper').addClass('with-scaffold closed');
 			$('body').append(html);
 		}
