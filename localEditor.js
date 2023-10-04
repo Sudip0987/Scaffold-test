@@ -1386,7 +1386,7 @@ var ScaffoldBuilder = (function (m, $) {
 		console.log("get components");
 		// to provide all the components via a provided objects
 			
-		var html = '<div class="template-link-wrapper"><a href="#" class="template-link">Insert  test</a><div class="element-wrapper" style="display: none;"></div></div>';
+		var html = '<div class="template-link-wrapper"><a href="#" class="template-link">Elements</a><div class="element-wrapper" style="display: none;"><p>test text</p></div></div>';
 		if (ScaffoldBuilder.options.editorposition === 1) {
 			if ($('#discussion-details-tab').length && (ScaffoldBuilder.disableassignment === undefined || !ScaffoldBuilder.disableassignment)) {
 				$("#discussion-details-tab > .control-group").first().after(
